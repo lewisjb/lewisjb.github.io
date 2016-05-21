@@ -6,19 +6,19 @@ html, body {
 	font-family: "Roboto Mono";
 }
 
-div.layer {
+.layer {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	display: table;
 }
 
-div.bg {
+.bg {
 	z-index: -1;
 	background-color: #2D2D2D;
 }
 
-div.triangle {
+#triangle {
 	display: inline-block;
 	vertical-align: middle;
 	width: 0;
@@ -29,7 +29,7 @@ div.triangle {
 	margin-top: 100px;
 }
 
-main {
+.center {
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
@@ -40,11 +40,11 @@ header {
 	text-align: center;
 }
 
-div.headline {
+.headline {
 	margin-bottom: 1em;
 }
 
-div.photo {
+.photo {
 	text-align: center;
 	border-radius: 100px;
 	background-image: url("../img/me.jpg");
@@ -52,14 +52,15 @@ div.photo {
 	height: 200px;
 	display: inline-block;
 	border: 1px solid black;
+	box-sizing: border-box;
 }
 
-nav a {
+.social_a {
 	text-decoration: none;
 	margin-right: 16px;
 	margin-left: 16px;
 }
-nav a span {
+.social_img {
 	width: 32px;
 	height: 32px;
 	background-size: cover;
@@ -67,18 +68,18 @@ nav a span {
 	vertical-align: middle;
 }
 
-nav a span.github {
+.github {
 	background-image: url("../img/GitHub-Mark-64px.png");
 }
 
-nav a span.linkedin {
+.linkedin {
 	background-image: url("../img/In-Black-128px-TM.png");
 }
 
-span.cwhite {
+.cwhite {
 	color: white;
 }
 
-span.cblue {
+.cblue {
 	color: #66CCCC;
 }
