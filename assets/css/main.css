@@ -1,0 +1,84 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto Mono";
+}
+
+div.layer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+div.bg {
+	z-index: -1;
+	background-color: #2D2D2D;
+}
+
+div.triangle {
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 450px 250px 0 250px;
+	border-color: #206B53 transparent transparent transparent;
+	margin-top: 100px;
+}
+
+main {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+header {
+	font-size: 30pt;
+	text-align: center;
+}
+
+div.headline {
+	margin-bottom: 1em;
+}
+
+div.photo {
+	text-align: center;
+	border-radius: 100px;
+	background-image: url("../img/me.jpg");
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+nav a {
+	text-decoration: none;
+	margin-right: 16px;
+	margin-left: 16px;
+}
+nav a span {
+	width: 32px;
+	height: 32px;
+	background-size: cover;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav a span.github {
+	background-image: url("../img/GitHub-Mark-64px.png");
+}
+
+nav a span.linkedin {
+	background-image: url("../img/In-Black-128px-TM.png");
+}
+
+span.cwhite {
+	color: white;
+}
+
+span.cblue {
+	color: #66CCCC;
+}
