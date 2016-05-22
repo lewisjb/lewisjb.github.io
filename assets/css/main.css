@@ -11,22 +11,14 @@ html, body {
 	width: 100%;
 	height: 100%;
 	display: table;
-}
-
-.bg {
-	z-index: -1;
 	background-color: #2D2D2D;
 }
 
-#triangle {
+.container {
 	display: inline-block;
-	vertical-align: middle;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 450px 250px 0 250px;
-	border-color: #2A4C6F transparent transparent transparent;
-	margin-top: 100px;
+	background-color: #2A4C6F;
+	padding: 2em;
+	border: 1px solid white;
 }
 
 .center {
@@ -36,12 +28,13 @@ html, body {
 }
 
 header {
-	font-size: 30pt;
+	font-size: 2.75em;
 	text-align: center;
+	display: inline-block;
 }
 
 .headline {
-	margin-bottom: 1em;
+	display: inline-block;
 }
 
 .photo {
