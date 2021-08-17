@@ -11,14 +11,14 @@ html, body {
 	width: 100%;
 	height: 100%;
 	display: table;
-	background-color: #2D2D2D;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAADJJREFUKFNjvHv37n9lZWVGXDRYgoGBgQGkCETDFMLYOHXCFMIVwHSAaGQTiTOBtm4AAIt8ZzXnSRUJAAAAAElFTkSuQmCC) repeat;
 }
 
 .container {
 	display: inline-block;
-	background-color: #2A4C6F;
-	padding: 2em;
-	border: 1px solid white;
+	background-color: white;
+	padding: 5em;
+	border: 1px solid #aaaaaa;
 }
 
 .center {
@@ -41,10 +41,11 @@ header {
 	text-align: center;
 	border-radius: 100px;
 	background-image: url("../img/me.jpg");
+	background-position: center;
+	background-size: cover;
 	width: 200px;
 	height: 200px;
 	display: inline-block;
-	border: 1px solid black;
 	box-sizing: border-box;
 }
 
